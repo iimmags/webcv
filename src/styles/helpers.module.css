@@ -1,0 +1,51 @@
+.Height100VH {
+  height: 3000px;
+}
+
+.FlexGrow {
+  flex-grow: 1;
+}
+
+.MarginTop10P {
+  margin-top: 10% !important;
+}
+
+.MarginBottom6P {
+  margin-bottom: 6% !important;
+}
+
+.BackgroundColorFFF {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.NoBoxShadow {
+  box-shadow: none !important;
+}
+
+.Color242321 {
+  color: #242321 !important;
+}
+
+.Color898989 {
+  color: #898989;
+}
+
+.BackgroundColorECECEC{
+  background-color: #ececec;
+}
+
+.BorderRadius4Px{
+  border-radius: 4px;
+}
+
+.NoPadding {
+  padding: 0 !important;
+}
+
+.MarginRight10Px {
+  margin-right: 10px;
+}
+
+.PaddingLeft2P{
+  padding-left: 2%;
+}
