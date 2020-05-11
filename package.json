@@ -1,18 +1,35 @@
 {
   "name": "webcv-app",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
+  "homepage": "https://iimmags.github.io/webcv/",
+  "scripts": {
+    "start": "yarn run build:css && react-app-rewired start",
+    "build": "yarn run build:css && react-app-rewired build",
+    "build:css": "tailwindcss build src/styles/style.css -o src/styles/tailwind.css",
+    "test": "yarn test:unit",
+    "test:unit": "react-app-rewired test --coverage --watchAll=false",
+    "test:unit:ci": "react-app-rewired test --coverage --watchAll=false",
+    "test:unit:watch": "react-app-rewired test --coverage --watchAll=true",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "@material-ui/core": "4.7.0",
-    "react": "16.11.0",
-    "react-dom": "16.11.0",
-    "react-scripts": "3.2.0"
+    "@material-ui/icons": "4.5.1",
+    "material-ui": "1.0.0-beta.47",
+    "customize-cra": "0.9.1",
+    "customize-cra-react-refresh": "1.1.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "3.4.3",
+    "typescript": "3.8.3"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@types/react-dom": "16.9.8",
+    "concurrently": "4.1.1",
+    "react-app-rewired": "2.1.6",
+    "tailwindcss": "1.9.5",
+    "gh-pages": "3.1.0"
   },
   "eslintConfig": {
     "extends": "react-app"

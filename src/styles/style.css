@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+body * {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+p {
+  font-family: "Questrial" !important;
+}
+
+body {
+  width: 100%;
+  height: fit-content;
+  margin: 0; /* Space from this element (entire page) and others*/
+  padding: 0; /*space from content and border*/
+  border: solid #edf2f7;
+  border-width: 20px;
+  box-sizing: border-box;
+}
