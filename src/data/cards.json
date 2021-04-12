@@ -1,0 +1,176 @@
+{
+   "cardsSections": [
+      {
+         "typoName": "Experience",
+         "cards": [
+            {
+               "location": "Porto, Portugal",
+               "locationDate": "Feb 2021 – Present",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C4E0BAQEtG5gG093_0g/company-logo_200_200/0/1611840255891?e=1626307200&v=beta&t=OioxPbQ34pO9G13NhpVMLYlEj1FeJynlQaFJ_pzDK4I",
+               "jobExperienceName": "Metyis",
+               "jobExperienceRole": "Software Engineer",
+               "jobExperienceDescriptions": []
+            },
+            {
+               "location": "Porto, Portugal",
+               "locationDate": "Sep 2019 – Feb 2021",
+               "locationMonths": "1 year and 6 months",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C4D0BAQFyRAPhblnjBg/company-logo_200_200/0/1594644503354?e=1626307200&v=beta&t=GPv5S1K7fwmE8EIqYX1TDAO7e3hWwknmelWfcM8DOG8",
+               "jobExperienceName": "Talkdesk",
+               "jobExperienceRole": "Software Engineer",
+               "jobExperienceDescriptions": [
+                  "Talkdesk is a cloud contact center solution for the customer-obsessed. With enterprise-class performance and consumer simplicity, increased productivity, higher customer satisfaction, more cost savings, and great customer experience.",
+                  "During my experience at Talkdesk, I had the opportunity to work with an integrated suite of workforce engagement management solutions designed to help manage, develop, and empower the agents to succeed, regardless of their physical location and with speech analytics solutions that collect, transcribe and analyze 100% of customer interactions for better insights."
+               ]
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "Feb 2018 – Sep 2019",
+               "locationMonths": "1 year and 8 months",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C560BAQFV8vjYyS056Q/company-logo_200_200/0/1551944829997?e=1626307200&v=beta&t=oVV6JWgoKtOFk4rx2WNZYChbf67iSOMnfjMZE5XR9DU",
+               "jobExperienceName": "Critical Software",
+               "jobExperienceRole": "Front-End Developer",
+               "jobExperienceDescriptions": [
+                  "Critical Software is a Portuguese software and information systems company based in Coimbra and with international implantation, specialized in offering reliable solutions, services, and technologies for mission-critical and business information systems, guaranteeing support to key operational functions.",
+                  "During my experience at Critical Software, I had the opportunity to contribute to the development of an internal platform, which controls all internal processes of the company."
+               ]
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "Feb 2017 – Dec 2017",
+               "locationMonths": "11 Months",
+               "avatarSrc": "https://lh3.googleusercontent.com/Or6OTm7XxKt_7l5lCbvpQHkYlJakmg4aO3P5yg8Y45lD-olZ4zJDt-b0P8ZQC5ZTKj8k",
+               "jobExperienceName": "Enso Origins",
+               "jobExperienceRole": "Software Developer",
+               "jobExperienceDescriptions": [
+                  "Enso Origins is a company that develops software solutions like websites and mobile applications, with systems integration and database design.",
+                  "During my experience in the company, I had the opportunity to implement a web application for some schools which aimed to influence the customers to save energy."
+               ]
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "Feb 2017 – Jun 2017",
+               "locationMonths": "5 Months",
+               "avatarSrc": "https://lh3.googleusercontent.com/Or6OTm7XxKt_7l5lCbvpQHkYlJakmg4aO3P5yg8Y45lD-olZ4zJDt-b0P8ZQC5ZTKj8k",
+               "jobExperienceName": "Enso Origins",
+               "jobExperienceRole": "Software Developer (Intern)",
+               "jobExperienceDescriptions": [
+                  "Enso Origins is a company that develops software solutions like websites and mobile applications, with systems integration and database design.",
+                  "During my experience in the company, I had the opportunity to implement a financial control web application to control the unit costs that contributed to the company revenue."
+               ]
+            }
+         ]
+      },
+      {
+         "typoName": "Education",
+         "cards": [
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "2017 - 2019",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C4D0BAQEFz7OVaS1YTg/company-logo_200_200/0?e=2159024400&v=beta&t=yDsqX3a_MQreDmc_ho96o-o0yJ448Bk6r0TywpHztAo",
+               "jobExperienceName": "Instituto Superior de Engenharia de Coimbra",
+               "jobExperienceRole": "Master's Degree, Software development",
+               "jobExperienceDescriptions": [
+                  "The objective of the Master in Computer Engineering (MEI) is to deepen and complement training in the area of ​​computer science, ensuring the qualification of professionals with engineering knowledge that will allow them to integrate teams with a view to the design, development and maintenance of computer systems in different areas.",
+                  "Area: Software Engineering",
+                  "ECTS: 120",
+                  "(Incomplete)"
+               ]
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "2014 - 2017",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C4D0BAQEFz7OVaS1YTg/company-logo_200_200/0?e=2159024400&v=beta&t=yDsqX3a_MQreDmc_ho96o-o0yJ448Bk6r0TywpHztAo",
+               "jobExperienceName": "Instituto Superior de Engenharia de Coimbra",
+               "jobExperienceRole": "Bachelor's degree, Computer Engineering",
+               "jobExperienceDescriptions": [
+                  "The Degree in Computer Engineering, adapted to the Bologna model from the academic year 2007/2008, aims to train computer engineers capable of exercising professional activity with a high level of technical and scientific competence.",
+                  "Area: Information Systems",
+                  "ECTS: 180",
+                  "Final average: 13.0"
+               ]
+            }
+         ]
+      },
+      {
+         "typoName": "Certifications",
+         "isCertifications": true,
+         "cards": [
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "Apr 2019 — Jul 2019",
+               "locationMonths": "30 hours",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C4E0BAQGz4yBcgCTKog/company-logo_200_200/0/1521649159751?e=1626307200&v=beta&t=UQv1A4zHFLFOQude_n5lbsxp15Esxm8yd0gkCuXICkk",
+               "jobExperienceName": "C1 – Advanced – CEFRC1 (English course)",
+               "jobExperienceRole": "International House World Organisation",
+               "jobExperienceDescriptions": []
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "May 2019 — May 2019",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C560BAQFV8vjYyS056Q/company-logo_200_200/0/1551944829997?e=1626307200&v=beta&t=oVV6JWgoKtOFk4rx2WNZYChbf67iSOMnfjMZE5XR9DU",
+               "jobExperienceName": "Training in Java I",
+               "jobExperienceRole": "Critical Software",
+               "jobExperienceDescriptions": []
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "May 2019 — May 2019",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C560BAQFV8vjYyS056Q/company-logo_200_200/0/1551944829997?e=1626307200&v=beta&t=oVV6JWgoKtOFk4rx2WNZYChbf67iSOMnfjMZE5XR9DU",
+               "jobExperienceName": "Training in Data Basics",
+               "jobExperienceRole": "Critical Software",
+               "jobExperienceDescriptions": []
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "May 2019 — May 2019",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C560BAQFV8vjYyS056Q/company-logo_200_200/0/1551944829997?e=1626307200&v=beta&t=oVV6JWgoKtOFk4rx2WNZYChbf67iSOMnfjMZE5XR9DU",
+               "jobExperienceName": "Workshop in Agile and Continuous Delivery",
+               "jobExperienceRole": "Critical Software",
+               "jobExperienceDescriptions": []
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "May 2019 — May 2019",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C560BAQFV8vjYyS056Q/company-logo_200_200/0/1551944829997?e=1626307200&v=beta&t=oVV6JWgoKtOFk4rx2WNZYChbf67iSOMnfjMZE5XR9DU",
+               "jobExperienceName": "Story Points Estimation Workshop",
+               "jobExperienceRole": "Critical Software",
+               "jobExperienceDescriptions": []
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "Jan 2018 — Mar 2018",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C560BAQFV8vjYyS056Q/company-logo_200_200/0/1551944829997?e=1626307200&v=beta&t=oVV6JWgoKtOFk4rx2WNZYChbf67iSOMnfjMZE5XR9DU",
+               "jobExperienceName": "Software Engineering",
+               "jobExperienceRole": "Critical Software",
+               "jobExperienceDescriptions": []
+            },
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "Mar 2016 — Mar 2016",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C4E0BAQF4NB1aKNdiTg/company-logo_200_200/0/1526311962721?e=1626307200&v=beta&t=4RgPEx71xWULomhiUKjBqbcqLYgTO8SPZ4UlkasjWvI",
+               "jobExperienceName": "Android Started",
+               "jobExperienceRole": "Coimbra Business School | ISCAC",
+               "jobExperienceDescriptions": []
+            }
+         ]
+      },
+      {
+         "typoName": "Extra-Curricular Activities",
+         "cards": [
+            {
+               "location": "Coimbra, Portugal",
+               "locationDate": "Jan 2016 — Dec 2017",
+               "locationMonths": "1 year",
+               "avatarSrc": "https://media-exp1.licdn.com/dms/image/C560BAQFgufFYBPEy4A/company-logo_200_200/0/1519903878332?e=1626307200&v=beta&t=CwTPqbqYsooxJwn28sCuahHh92PPes9u9OnRA2qYv8s",
+               "jobExperienceName": "Volunteer Staff",
+               "jobExperienceRole": "CASA (Centro de Apoio a o Sem Abrigo)",
+               "jobExperienceDescriptions": [
+                  "CASA works mostly through volunteering with more than 1400 volunteers, distributed by 10 Delegations in Portugal and Madeira, supporting more than 4000 users from families at risk and +1100 homeless people.",
+                  "During my volunteering work in the CASA association, I had the opportunity to help to distribute meals to homeless people in Coimbra city."
+               ]
+            }
+         ]
+      }
+   ]
+}
