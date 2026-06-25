@@ -24,10 +24,17 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/preload.css" />
     <title>Inês Magalhães — Frontend Engineer</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="preload" aria-hidden="true">
+        <p class="preload-eyebrow">Hi, I'm</p>
+        <h1 class="preload-name">Inês Magalhães.</h1>
+        <p class="preload-title">Frontend Engineer · Porto, Portugal</p>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
