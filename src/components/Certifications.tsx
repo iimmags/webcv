@@ -3,20 +3,22 @@ import Section from "./Section";
 
 export default function Certifications() {
   return (
-    <Section id="certifications" title="Certifications">
-      <ul className="grid gap-3 sm:grid-cols-2">
+    <Section
+      id="certifications"
+      eyebrow="05 · Certifications"
+      title="What I've learned"
+    >
+      <ul className="space-y-3">
         {certifications.map((c) => (
           <li
             key={`${c.name}-${c.year}`}
-            className="flex items-baseline justify-between gap-4 rounded-xl border border-slate-200 bg-white px-4 py-3"
+            className="rounded-xl border border-slate-200 bg-white px-5 py-4 transition hover:border-slate-300 hover:shadow-sm"
           >
-            <div>
-              <p className="text-sm font-medium text-slate-900">{c.name}</p>
-              <p className="text-xs text-slate-600">{c.issuer}</p>
-            </div>
-            <span className="text-xs uppercase tracking-wide text-slate-500">
+            <p className="text-base font-semibold text-slate-900">{c.name}</p>
+            <p className="mt-1 text-sm text-slate-600">{c.issuer}</p>
+            <p className="mt-1 font-mono text-xs uppercase tracking-wide text-slate-500">
               {c.year}
-            </span>
+            </p>
           </li>
         ))}
       </ul>
