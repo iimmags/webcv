@@ -14,7 +14,7 @@ export const profile = {
   phone: "+351 917 843 194",
   linkedin: "https://www.linkedin.com/in/inesmmagalhaes/",
   github: "https://github.com/iimmags",
-  cv: "/webcv/cv.pdf",
+  cv: "/cv.pdf",
   summary:
     "Frontend Engineer with 8+ years of experience building scalable web applications in multi-market environments. Specialized in React, TypeScript, SEO, performance optimization, and platform engineering to improve user engagement and delivery efficiency.",
 };

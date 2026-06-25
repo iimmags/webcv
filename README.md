@@ -1,6 +1,6 @@
 # webcv
 
-Personal CV site — [iimmags.github.io/webcv](https://iimmags.github.io/webcv/).
+Personal CV site — [iimmags.github.io](https://iimmags.github.io/).
 
 Built with **React 18**, **TypeScript**, **Tailwind CSS**, and **React Aria Components**, bundled by **Vite**.
 
@@ -8,7 +8,7 @@ Built with **React 18**, **TypeScript**, **Tailwind CSS**, and **React Aria Comp
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173/webcv/
+npm run dev      # http://localhost:5173/
 npm run build    # production build → dist/
 npm run preview  # preview the production build
 ```

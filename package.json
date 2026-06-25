@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://iimmags.github.io/webcv/",
+  "homepage": "https://iimmags.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
