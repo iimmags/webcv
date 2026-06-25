@@ -1,44 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-
-body {
-  margin: 0;
-}
-
-body * {
-  font-family: "Montserrat", sans-serif !important;
-}
-
-p {
-  font-family: "Questrial" !important;
-}
-
-body:before,
-body:after {
-  content: "";
-  position: fixed;
-  background: #ececec;
-  left: 0;
-  right: 0;
-  height: 20px;
-  z-index: 100;
-}
-
-body:before {
-  top: 0;
-}
-
-body:after {
-  bottom: 0;
-}
-
-body {
-  border-left: 20px solid #ececec;
-  border-right: 20px solid #ececec;
-}
-
-#footer {
-  height: 200px;
-  background-color: #ececec;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-50 text-slate-800 font-sans antialiased;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-slate-900 ring-offset-2 ring-offset-slate-50 rounded-sm;
+  }
 }

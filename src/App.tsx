@@ -1,19 +1,27 @@
-import React from "react";
+import Hero from "./components/Hero";
+import Summary from "./components/Summary";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import Certifications from "./components/Certifications";
+import Contact from "./components/Contact";
+import { profile } from "./data/cv";
 
-import { Container, Typography } from "@material-ui/core";
-
-import AppNavBar from "./components/navbar/AppNavBar";
-import CardsGroup from "./components/cardGroup/CardsGroup";
-
-const App: React.FC = () => {
+export default function App() {
   return (
-    <Container>
-      <Typography component="div">
-        <AppNavBar />
-        <CardsGroup />
-      </Typography>
-    </Container>
+    <div className="mx-auto max-w-6xl px-1 sm:px-4">
+      <Hero />
+      <main>
+        <Summary />
+        <Skills />
+        <Experience />
+        <Education />
+        <Certifications />
+        <Contact />
+      </main>
+      <footer className="border-t border-slate-200 py-8 text-center text-xs text-slate-500">
+        © {new Date().getFullYear()} {profile.name} · Built with React, TypeScript &amp; Tailwind CSS
+      </footer>
+    </div>
   );
-};
-
-export default App;
+}

@@ -1,51 +1,27 @@
 {
-  "name": "webcv-app",
-  "version": "0.0.1",
+  "name": "webcv",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "homepage": "https://iimmags.github.io/webcv/",
   "scripts": {
-    "start": "yarn run build:css && react-app-rewired start",
-    "build": "yarn run build:css && react-app-rewired build",
-    "build:css": "tailwindcss build src/styles/style.css -o src/styles/tailwind.css",
-    "test": "yarn test:unit",
-    "test:unit": "react-app-rewired test --coverage --watchAll=false",
-    "test:unit:ci": "react-app-rewired test --coverage --watchAll=false",
-    "test:unit:watch": "react-app-rewired test --coverage --watchAll=true",
-    "deploy": "gh-pages -d build"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@material-ui/core": "4.7.0",
-    "@material-ui/icons": "4.5.1",
-    "customize-cra": "0.9.1",
-    "customize-cra-react-refresh": "1.1.0",
-    "material-ui": "1.0.0-beta.47",
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
-    "react-scripts": "3.4.3",
-    "typescript": "3.8.3",
-    "uuid": "8.3.2"
+    "react": "^18.3.1",
+    "react-aria-components": "^1.5.0",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react-dom": "16.9.8",
-    "@types/uuid": "8.3.0",
-    "concurrently": "4.1.1",
-    "gh-pages": "3.1.0",
-    "react-app-rewired": "2.1.6",
-    "tailwindcss": "1.9.5"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
   }
 }
